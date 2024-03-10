@@ -46,7 +46,7 @@ inquirer.prompt([
     const svgContent = 
     `<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg"> ${svgShape.render()}
         
-        <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="${textColor}">${text}</text>
+        <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="${textColor}" font-size="65">${text}</text>
     </svg>`;
 
     // Save SVG to output folder
