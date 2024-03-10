@@ -1,5 +1,4 @@
 {
-  "type": "module",
   "name": "svg-logo-maker",
   "version": "1.0.0",
   "description": "svg logo maker",
@@ -22,10 +21,10 @@
     "url": "https://github.com/robertsolorzano/SVG-Logo-Maker/issues"
   },
   "homepage": "https://github.com/robertsolorzano/SVG-Logo-Maker",
-  "dependencies": {
-    "inquirer": "^9.2.15"
-  },
   "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.0"
   }
 }

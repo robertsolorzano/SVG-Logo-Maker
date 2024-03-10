@@ -1,6 +1,6 @@
-import inquirer from "inquirer";
-import { Circle, Square, Triangle } from './lib/shapes.js'
-import { writeFileSync } from 'fs';
+const inquirer = require('inquirer');
+const shapes = require('./lib/shapes.js');
+const { writeFileSync } = require('fs');
 
 // Promt for the user
 inquirer.prompt([
@@ -32,13 +32,13 @@ inquirer.prompt([
 
     switch(shape) {
         case 'Circle':
-            svgShape = new Circle(shapeColor);
+            svgShape = new shapes.Circle(shapeColor);
                 break;
         case 'Square':
-            svgShape = new Square(shapeColor);
+            svgShape = new shapes.Square(shapeColor);
                 break;
         case 'Triangle':
-            svgShape = new Triangle(shapeColor);
+            svgShape = new shapes.Triangle(shapeColor);
                 break;
         }
     
