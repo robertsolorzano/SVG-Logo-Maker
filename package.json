@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/robertsolorzano/SVG-Logo-Maker/issues"
   },
-  "homepage": "https://github.com/robertsolorzano/SVG-Logo-Maker"
+  "homepage": "https://github.com/robertsolorzano/SVG-Logo-Maker",
+  "dependencies": {
+    "inquirer": "^9.2.15"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
